@@ -55,6 +55,21 @@ header {
     color: #999;
     position: relative;
 }
+.menu li a button {
+    border: none;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+.menu li a button:hover{
+ background-color: #fff;
+ color: #27ae60;
+}
+
 .menu li a::before {
     position: absolute;
     top: -5px;
